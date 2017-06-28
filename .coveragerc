@@ -1,0 +1,10 @@
+[run]
+branch = True
+source = dashex
+
+[paths]
+source =
+  .tox/*/lib/*/site-packages/
+
+[html]
+directory = coverage
