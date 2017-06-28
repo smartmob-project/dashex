@@ -5,7 +5,9 @@ python:
   - "2.7.12"
   - "3.5"
 
-sudo: false
+sudo: true
+services:
+  - docker
 
 install:
   - pip install tox-travis

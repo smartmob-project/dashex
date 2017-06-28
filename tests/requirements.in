@@ -3,3 +3,5 @@ docutils
 flake8
 mock
 pytest
+pytest-docker
+requests
