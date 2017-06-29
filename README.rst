@@ -31,3 +31,28 @@ Contributing
 This project uses permissive licensing.  Nobody is paid to support/maintain
 this software.  You may request support in the issue tracker, but be prepared
 to submit a pull request to fix bugs and/or submit improvements.
+
+
+Features
+========
+
+Grafana
+-------
+
+The tool allows exchange of the following Grafana objects:
+
+1. Data sources
+2. Dashboards
+
+Exporting a configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use ``dashex pull-grafana ...`` to download the configuration to disk.
+Typically, you would then store it in source control or back it up somewhere.
+
+Importing a configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use ``dashex push-grafana ...`` to upload the configuration to the remote
+instance.  Typically, you will point this to a snapshot from your source
+control.
